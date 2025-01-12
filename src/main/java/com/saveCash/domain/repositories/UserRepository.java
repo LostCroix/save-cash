@@ -1,4 +1,7 @@
 package com.saveCash.domain.repositories;
 
-interface UserRepository {
+import com.saveCash.adapters.dtos.UserDTO;
+
+public interface UserRepository {
+    void createUser(UserDTO user);
 }
